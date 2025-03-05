@@ -1,0 +1,216 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    background-color: black;
+    height: 80px;
+     position:sticky;
+    top:0;
+    z-index:12;
+}
+#part2{
+    display: flex;
+    position: relative;
+    left: 5%;
+  
+   
+    color: white;
+    list-style: none;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    
+   
+}
+
+
+#part1{
+    position: relative;
+    left: 1%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s linear;
+}
+#log a{
+    text-decoration: none; 
+    color: white;
+}
+.admin{
+    position: relative;
+    left: 60px;
+    top:6px
+}
+.parent1{
+    height:30vh;
+    width:100%;
+    margin-top: 1%;
+    background-color:white;
+}
+#child1 h5{
+    margin-left:3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#child2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#child2 img:hover{
+    transition: all;
+    scale:1.1;
+    transition-duration: 2s;
+
+}
+.parent2{
+    height:60vh;
+}
+.parent3{
+    height:90vh;
+    width:100%;
+    margin-top: 2%;
+    background-color:rgb(142, 130, 126)
+}
+#child31 h3 {
+    align-items: center;
+    padding-bottom: 3%;
+    padding-bottom: 2%;
+    padding-left: 43%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#child32 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#child32 img{
+    border-radius: 10px;
+}
+.parent4{
+    margin-top: 2%;
+}
+.parent5{
+    height:30vh;
+    width:100%;
+    margin-top: 1%;
+    background-color:white;
+}
+#child51 h5{
+    margin-left:3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#child52 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 4%;
+}
+#child52 img:hover{
+    transition: all;
+    scale:1.1;
+    transition-duration: 2s;
+
+}
+.parent6 {
+    height:20vh;
+    width:100%;
+    margin-top: 2%;
+}
+#child61 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+     /* margin-bottom: 2%; */
+} 
+#part3{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+#part3:hover{
+    background-color: rgb(248, 248, 243);
+    color: black;
+    border-radius: 5px;
+   
+}
+#part4{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+#part4:hover{
+    background-color: rgb(248, 248, 243);
+    color: black;
+    border-radius: 5px;
+   
+}
+#part5{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+#part5:hover{
+    background-color: rgb(248, 248, 243);
+    color: black;
+    border-radius: 5px;
+   
+}
+#part6{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+#part6:hover{
+    background-color: rgb(248, 248, 243);
+    color: black;
+    border-radius: 5px;
+   
+}
+#part7{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+#part7:hover{
+    background-color: rgb(248, 248, 243);
+    color: black;
+    border-radius: 5px;
+   
+}
+
+.demo{
+    position: relative;
+    transition: all 0.5s linear;
+}
+.demo:hover{
+    transform: scale(1.1,1.1);
+}
+footer {
+background: #212529;
+}
+
+
+
